@@ -6,7 +6,7 @@
 /*   By: dvavryn <dvavryn@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 22:17:10 by dvavryn           #+#    #+#             */
-/*   Updated: 2025/05/09 13:02:38 by dvavryn          ###   ########.fr       */
+/*   Updated: 2025/05/09 13:55:09 by dvavryn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "./libft/libft.h"
+# include <unistd.h>
 
 int	ft_printf(const char *format, ...);
 int	ft_putchar(int c);
@@ -24,5 +24,6 @@ int	ft_putunbr(unsigned int n);
 int	ft_putnbr_hex(int c, unsigned int n);
 int	ft_padress(void *p);
 int	ft_putulong_hex(unsigned long n);
+size_t	ft_strlen(const char *s);
 
 #endif
