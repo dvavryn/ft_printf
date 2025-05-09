@@ -1,8 +1,8 @@
-NAME	:= libftprintf.a
+NAME	:= ft_printf.a
 cc		:= cc
 CFLAGS	:= -Wall -Wextra -Werror
 HEADER	:=\
-			libftprintf.h\
+			ft_printf.h\
 			./libft/libft.h
 
 SRCS	:=\
