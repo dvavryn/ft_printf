@@ -1,4 +1,4 @@
-NAME	:= ft_printf.a
+NAME	:= libftprintf.a
 cc		:= cc
 CFLAGS	:= -Wall -Wextra -Werror
 HEADER	:= ft_printf.h
