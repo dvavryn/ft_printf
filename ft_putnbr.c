@@ -6,7 +6,7 @@
 /*   By: dvavryn <dvavryn@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 21:22:23 by dvavryn           #+#    #+#             */
-/*   Updated: 2025/05/09 13:03:02 by dvavryn          ###   ########.fr       */
+/*   Updated: 2025/05/16 18:31:53 by dvavryn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	ft_putnbr(int n)
 	ft_putchar((n % 10) + '0');
 	return ((int)l);
 }
-#include <stdio.h>
+
 static int	getlen_n(int n)
 {
 	size_t	i;
